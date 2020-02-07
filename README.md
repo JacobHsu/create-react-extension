@@ -53,6 +53,27 @@ Once the installation is done, you can open your project folder:
 cd my-browser-extension
 ```
 
+## create-react-extension　vs. create-react-app
+
+### package.json
+
+```js
+"dependencies": {
+    "react-scripts": "3.3.1"  改為　"react-browser-extension-scripts": "3.3.1",
+```
+
+### src
+
+src 新增了　background.js　和　contentScript.js
+
+src\background\index.js
+src\contentScript\index.js
+
+### public
+
+public\index.html 改為　public\popup.html
+manifest.json 改為 chrome [Manifest File Format](https://developer.chrome.com/extensions/manifest)
+
 ## References
 
 VasilyShelkov/[create-react-extension](https://github.com/VasilyShelkov/create-react-extension)  
