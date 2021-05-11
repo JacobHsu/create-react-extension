@@ -9,6 +9,10 @@ cd create-react-extension
 yarn start
 ```
 
+`yarn build`
+
+更多工具 > 擴充功能 > 載入未封裝項目 >  載入`build`資料夾
+
 ### Yarn
 
 ```sh
